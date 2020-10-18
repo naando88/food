@@ -1,0 +1,23 @@
+.box-detalle{
+    border: 1px solid green;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.box-image{
+    border: 1px solid green;
+    display: grid;
+    grid-template-rows: 100px 100px 100px 100px;
+}
+.box-tarjeta{
+    border: 1px solid green;
+}
+.box-description{
+    border: 1px solid green;
+}
+.box-btn-item{
+    margin-left: 15px;
+    margin-right: 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 15px;
+}
